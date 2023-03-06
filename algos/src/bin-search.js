@@ -8,6 +8,8 @@ SWBAT:
 [ ] analyze its runtime
 */
 
+//=====================================================
+
 /*
     PARAM:
     arr: an array of ints to search through
@@ -17,6 +19,8 @@ SWBAT:
 function linearSearch(arr, target) {
     //TODO: pseudocode, write algorithm, analyze runtime
 }
+
+//=====================================================
 
 /*
     PARAM:
