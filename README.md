@@ -4,6 +4,7 @@
 ### Day 1
 - fib
 - selection sort
+- insertion sort
 - run time
 - array run time
 
