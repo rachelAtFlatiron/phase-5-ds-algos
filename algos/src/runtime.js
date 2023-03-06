@@ -3,6 +3,7 @@ SWBAT
 [ ] define runtime 
 [ ] understand the various types of runtime
 [ ] identify the runtime of basic logic structures
+[ ] understand best, worse, and average case scenarios
 */
 
 /*
