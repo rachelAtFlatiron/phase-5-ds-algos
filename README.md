@@ -2,7 +2,7 @@
 
 # Week 1 
 ## Day 1: Runtime
-### Run Time
+
 - **Runtime**: The amount of time it takes a computer to run an algorithm.
     - It can be thought of as the number of times a statement is executed, not the actual amount of ms it takes an algorithm to run
     - Run time can be separated into best, average, and worst case scenarios.
@@ -14,6 +14,8 @@
 <br>
 <br>
 <br>
+
+## Day 2: Selection & Insertion Sort
 - **Selection Sort**: An in-place sorting algorithm for arrays
     - An in place sorting algorithm (we will be swapping elements, not creating new arrays)
     - Not ideal for large lists
@@ -27,9 +29,6 @@
 <br>
 <br>
 
-
-
-### Day 2 
 - **Insertion Sort**: Another in place comparison sorting method 
     - Efficient for small data sets and data sets that are already partially sorted
     - Algo divides list into sorted and unsorted sublists.  It compares the first element in the unsorted sublist and repeatedly swaps it, working backwards, through the sorted sublist until it finds its place.
@@ -39,7 +38,8 @@
 <br>
 <br>
 <br>
-### Day 3
+
+## Day 3: Search and O(log n)
 - **Binary Search**: Efficient algo for finding an item in a SORTED array
     - Repeatedly divides the search interval by half
     - Looks at element in middle, if middle element is less than target element we start searching in the right half and vice versa.
@@ -57,29 +57,64 @@
     ![log n](https://i.stack.imgur.com/spHFh.png)
     <br>
     [source](https://stackoverflow.com/questions/2307283/what-does-olog-n-mean-exactly)
-### Day 4
+
+<br>
+<br>
+<br>
+
+## Day 4: Fibonacci and Recursion
 - fib
 - recursive counting
 - recursive fib 
 - run time
 
-### Day 5
+<br>
+<br>
+<br>
+
+## Day 5: Recursion Practice
 - quicksort?
 - something recursive
 
-## Week 2
-### Day 1
-- nodes, linked lists
-- stacks, queues 
+<br>
+<br>
+<br>
 
-### Day 2
-- trees 
+# Week 2
+## Day 1: Merge sort
 
-### Day 3
-- tree traversal
+<br>
+<br>
+<br>
 
-### Day 4
-- tree traversal
+## Day 2: Nodes, Linked Lists, Stacks, Queues
+<br>
+<br>
+<br>
 
-### Day 5
-- graphs 
+## Day 3: Trees
+
+<br>
+<br>
+<br>
+
+## Day 4: Tree Traversal
+<br>
+<br>
+<br>
+
+## Day 5: Graphs
+
+<br>
+<br>
+<br>
+
+# Week 3
+
+## Day 1: Graph Paths 
+
+<br>
+<br>
+<br>
+
+## Day 2: Graph Paths
