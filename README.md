@@ -62,17 +62,15 @@
 <br>
 <br>
 
-## Day 4: Fibonacci and Recursion
-- fib
-- recursive counting
-- recursive fib 
-- run time
-
+## Day 4: Recursion
+- **Recursion**: Defining a problem by smaller instances of itself
+    - **Base Case**: The smallest subproblem that ends the recursion
+    - **Recursive Case**: The case where the function calls itself, usually with some modified parameter or return value
 <br>
 <br>
 <br>
 
-## Day 5: Recursion Practice
+## Day 5: Fibonacci and Recursion
 - quicksort?
 - something recursive
 

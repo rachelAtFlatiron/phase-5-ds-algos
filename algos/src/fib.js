@@ -2,7 +2,6 @@
     SWBAT
     [ ] how to update and keep track of values
     [ ] recursion: base case, etc.
-    [ ] the run time of loops, variable updates, recursion, etc.
     [ ] understand recursive trees
 
 */
