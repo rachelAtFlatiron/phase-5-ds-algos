@@ -3,6 +3,7 @@
     [ ] how to update and keep track of values
     [ ] recursion: base case, etc.
     [ ] understand recursive trees
+    [ ] draw a recursive tree for the fib algorithm
 
 */
 
