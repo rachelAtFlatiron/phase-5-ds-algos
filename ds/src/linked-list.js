@@ -7,3 +7,6 @@ class LinkedList {
 
     //methods
 }
+
+
+//testing
