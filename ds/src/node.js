@@ -4,7 +4,5 @@ export default class Node {
     constructor() {
 
     }
-
-    //methods
 }
 
