@@ -65,3 +65,47 @@ function singleLoop(){
 function nestedLoop(){
 
 }
+
+//=====================================================
+
+/*
+    [ ] TODO: implement a function using nested for loops that prints the following:
+
+    print(2) => 
+    *
+    **
+
+    print(5) => 
+    *
+    **
+    ***
+    ****
+    *****
+*/
+
+function print(x) {
+
+}
+
+//=====================================================
+
+/*
+    [ ] TODO: implement a function using for loops that print the following:
+
+    diamond(2) => 
+     * 
+    ***
+     * 
+    
+     
+    print(4) => 
+        *    
+       ***   
+      *****  
+       ***   
+        *     
+*/
+
+function diamond(x) {
+    
+}
