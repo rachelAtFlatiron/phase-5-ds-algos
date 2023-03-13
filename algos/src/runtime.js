@@ -12,39 +12,39 @@
     [ ] TODO: what is the runtime of this function
     [ ] TODO: how can we generalize this function
 */
-function a() {
-    return 10
+function a() { //O(1)
+    return 10 
 }
 
 //=====================================================
 
 /*
-    [ ] TODO: what is the runtime of this function
-    [ ] TODO: how can we generalize this function
+    [x] TODO: what is the runtime of this function
+    [x] TODO: how can we generalize this function
 */
-function b() {
-    for (let i = 0; i <= 10; i++){
-        let sum = i * a()
-        console.log(sum)
+function b(n) {
+    for (let i = 0; i < n; i++){ //one for loop runs n times and is thus O(n)
+        console.log(i) //performs one action O(1)
     }
 }
 
 //=====================================================
 
 /*
-    [ ] TODO: write out result of function by hand
-    [ ] TODO: what is the runtime of this function
-    [ ] TODO: how can we generalize this function
+    [x] TODO: write out result of function by hand
+    [x] TODO: what is the runtime of this function
+    [x] TODO: how can we generalize this function
 */
-function c() {
-    for (let i = 1; i <= 3; i++){
-        for(let i = 1; i <= 3; i++){
-            let sum = i * a()
+function c(n) { //O(n^2)
+    for (let i = 1; i <= n; i++){ 
+        for(let j = 1; j <= n; j++){
+            let sum = j * 10
             console.log(sum)
         }
         console.log()
     }
 }
+c(10)
 
 //=====================================================
 
@@ -69,8 +69,10 @@ function c() {
     [ ] TODO: analyze runtime
 */
 
-function singleLoop(){
-
+function singleLoop(n){ //O(n)
+    for(let i = 1; i <= n; i++){
+        console.log(i)
+    }
 }
 
 /*
@@ -87,8 +89,16 @@ function singleLoop(){
     [ ] TODO: analyze runtime
 */
 
-function timesTable(){
-
+function timesTable(n){ //O(n^2)
+    //outer for loop
+    for(let i = 1; i <= n; i ++){ //O(n)
+        //inner for loop
+        let str = ""
+        for(let j = 1; j <= n; j++){ //O(n)
+            str = str + (j * i) + ' '
+        }
+        console.log(str)
+    }
 }
 
 //=====================================================
@@ -109,13 +119,19 @@ function timesTable(){
 */
 
 function triangle(x) {
-
+    for(let i = 1; i <= x; i++){ //represents row
+        for(let j = 1; j <= i; j++) { //represent column
+            process.stdout.write("*")
+        }   
+        console.log()
+    }
 }
+triangle(3)
 
 //=====================================================
 
 /*
-    [ ] TODO: implement a function using for loops that print the following:
+    [ ] TODO: implement a function using nested for loops that print the following:
 
     square(2) => 
     **
