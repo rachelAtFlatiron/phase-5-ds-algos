@@ -75,19 +75,19 @@ function singleLoop(){
 
 /*
     [ ] TODO: create nested for loop that prints the following
-    nestedLoop(4) => 
-    0
-    0 1
-    0 1 2 
-    0 1 2 3
-    0 1 2 3 4
-    nesedLoop(1) => 
-    0 
-    0 1
+    timesTable(4) => 
+    1 2 3 4 
+    2 4 6 8
+    3 6 9 12
+    4 8 12 16
+    timesTable(3) => 
+    1 2 3
+    2 4 6
+    3 6 9
     [ ] TODO: analyze runtime
 */
 
-function nestedLoop(){
+function timesTable(){
 
 }
 
