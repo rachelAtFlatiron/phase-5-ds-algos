@@ -24,7 +24,7 @@ function a() {
 */
 function b() {
     for (let i = 0; i <= 10; i++){
-        let sum = i * O_1()
+        let sum = i * a()
         console.log(sum)
     }
 }
@@ -39,7 +39,7 @@ function b() {
 function c() {
     for (let i = 1; i <= 3; i++){
         for(let i = 1; i <= 3; i++){
-            let sum = i * O_1()
+            let sum = i * a()
             console.log(sum)
         }
         console.log()
@@ -49,7 +49,23 @@ function c() {
 //=====================================================
 
 /*
-    [ ] TODO: create single for loop
+    [ ] TODO: create single for loop that prints the following
+    singleLoop(4) => 
+    1
+    2
+    3
+    4
+    singleLoop(10) => 
+    1
+    2
+    3
+    4
+    5
+    6
+    7
+    8
+    9
+    10
     [ ] TODO: analyze runtime
 */
 
@@ -58,7 +74,16 @@ function singleLoop(){
 }
 
 /*
-    [ ] TODO: create nested for loop
+    [ ] TODO: create nested for loop that prints the following
+    nestedLoop(4) => 
+    0
+    0 1
+    0 1 2 
+    0 1 2 3
+    0 1 2 3 4
+    nesedLoop(1) => 
+    0 
+    0 1
     [ ] TODO: analyze runtime
 */
 
@@ -71,11 +96,11 @@ function nestedLoop(){
 /*
     [ ] TODO: implement a function using nested for loops that prints the following:
 
-    print(2) => 
+    triangle(2) => 
     *
     **
 
-    print(5) => 
+    triangle(5) => 
     *
     **
     ***
@@ -83,7 +108,7 @@ function nestedLoop(){
     *****
 */
 
-function print(x) {
+function triangle(x) {
 
 }
 
@@ -92,20 +117,18 @@ function print(x) {
 /*
     [ ] TODO: implement a function using for loops that print the following:
 
-    diamond(2) => 
-     * 
-    ***
-     * 
-    
-     
-    print(4) => 
-        *    
-       ***   
-      *****  
-       ***   
-        *     
+    square(2) => 
+    **
+    **
+
+    square(5) => 
+    *****
+    *****
+    *****
+    *****
+    *****
 */
 
-function diamond(x) {
-    
+function square(x) {
+
 }
