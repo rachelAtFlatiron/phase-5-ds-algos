@@ -121,12 +121,11 @@ function timesTable(n){ //O(n^2)
 function triangle(x) {
     for(let i = 1; i <= x; i++){ //represents row
         for(let j = 1; j <= i; j++) { //represent column
-            process.stdout.write("*")
+            process.stdout.write("*") //removes new line
         }   
         console.log()
     }
 }
-triangle(3)
 
 //=====================================================
 
@@ -145,6 +144,14 @@ triangle(3)
     *****
 */
 
-function square(x) {
-
+function square(x) { //O(n^2)
+    //outer for loop that represents each row
+    for(let row = 0; row < x; row++){
+        //inner for loop represents each element for an individual row
+        for(let col = 0; col < x; col++){
+            process.stdout.write("*") //removes new line
+        }
+        console.log() //print new line
+    }
 }
+square(5)
