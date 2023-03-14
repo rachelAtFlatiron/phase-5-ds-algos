@@ -12,30 +12,30 @@
     [ ] TODO: what is the runtime of this function
     [ ] TODO: how can we generalize this function
 */
-function a() { //O(1)
+function a() { 
     return 10 
 }
 
 //=====================================================
 
 /*
-    [x] TODO: what is the runtime of this function
-    [x] TODO: how can we generalize this function
+    [ ] TODO: what is the runtime of this function
+    [ ] TODO: how can we generalize this function
 */
 function b(n) {
-    for (let i = 0; i < n; i++){ //one for loop runs n times and is thus O(n)
-        console.log(i) //performs one action O(1)
+    for (let i = 0; i < n; i++){ 
+        console.log(i) 
     }
 }
 
 //=====================================================
 
 /*
-    [x] TODO: write out result of function by hand
-    [x] TODO: what is the runtime of this function
-    [x] TODO: how can we generalize this function
+    [ ] TODO: write out result of function by hand
+    [ ] TODO: what is the runtime of this function
+    [ ] TODO: how can we generalize this function
 */
-function c(n) { //O(n^2)
+function c(n) {
     for (let i = 1; i <= n; i++){ 
         for(let j = 1; j <= n; j++){
             let sum = j * 10
@@ -44,7 +44,6 @@ function c(n) { //O(n^2)
         console.log()
     }
 }
-c(10)
 
 //=====================================================
 
@@ -69,10 +68,8 @@ c(10)
     [ ] TODO: analyze runtime
 */
 
-function singleLoop(n){ //O(n)
-    for(let i = 1; i <= n; i++){
-        console.log(i)
-    }
+function singleLoop(n){ 
+
 }
 
 /*
@@ -89,16 +86,8 @@ function singleLoop(n){ //O(n)
     [ ] TODO: analyze runtime
 */
 
-function timesTable(n){ //O(n^2)
-    //outer for loop
-    for(let i = 1; i <= n; i ++){ //O(n)
-        //inner for loop
-        let str = ""
-        for(let j = 1; j <= n; j++){ //O(n)
-            str = str + (j * i) + ' '
-        }
-        console.log(str)
-    }
+function timesTable(n){ 
+    
 }
 
 //=====================================================
@@ -119,14 +108,8 @@ function timesTable(n){ //O(n^2)
 */
 
 function triangle(x) {
-    for(let i = 1; i <= x; i++){ //represents row
-        for(let j = 1; j <= i; j++) { //represent column
-            process.stdout.write("*")
-        }   
-        console.log()
-    }
+    
 }
-triangle(3)
 
 //=====================================================
 
