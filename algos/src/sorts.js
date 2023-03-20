@@ -101,3 +101,82 @@ function insertion_sort(arr) { //O(n^2)
     }
 }
 
+
+//=====================================================
+
+/*
+    PARAM: arr of ints to sort from least to greatest
+    RETURN: sorted array of ints
+*/
+
+/*
+    [ ] TODO: hand drawn demo 
+*/
+const mergeArr = [3, 5, 2, 7, 2, 3, 45,6  , 3]
+
+//recursion to split into halves until you get single element arrays
+
+const mergeSort = (array) => {
+    //base case: single element arrays
+        //return; 
+    //recursive case:
+        //split array in half, leftArray, rightArray
+        //mergeSort(leftArray)
+        //mergeSort(rightArray)
+
+        //merge(leftArray, rightArray)
+}
+
+
+//merging of two arrays
+//CONSTRAINTS: array.length >= 1, array is sorted ascending
+//most people use pointers to depict start of left array, right array
+const merge = (leftArray, rightArray) => {
+    let temp = [] //push sorted values into temp
+    let leftIdx = 0
+    let rightIdx = 0
+    //while loop: leftIdx <= leftArray.length - 1 , rightIdx <= rightArray.length - 1
+        //check if leftArray[leftIdx] < rightArray[rightIdx]
+            //temp.push left
+            //leftIdx += 1
+        //else 
+            //temp.push right
+            //rightIdx += 1
+
+
+    //take care of the leftovers
+    //if leftIdx < leftArray.length - 1, if leftIdx hasn't reached the end of leftArray
+        //push rest of leftArray onto tmp
+    //if rightIdx < rightArray.length - 1, if rightIdx hasn't reached the end of rightArray
+        //push rest of rightArray onto tmp
+}
+
+//merging of two arrays by index
+//CONSTRAINTS: array.length >= 1, array is sorted ascending
+//most people use pointers to depict start of left array, right array
+const mergeByIndex = (array, leftStart, rightEnd) => {
+
+    let leftEnd = Math.floor((leftStart + rightEnd) / 2)
+    let rightStart = leftEnd + 1
+    //leftArray: index leftStart - index leftEnd of array
+    //rightArray: index rightStart - index rightEnd of array
+
+
+    let tempSorted = [] //push sorted values into temp
+    //while loop: leftIdx <= leftArray.length - 1 , rightIdx <= rightArray.length - 1
+        //check if leftArray[leftIdx] < rightArray[rightIdx]
+            //temp.push left
+            //leftIdx += 1
+        //else 
+            //temp.push right
+            //rightIdx += 1
+
+
+    //take care of the leftovers
+    //if leftIdx < leftArray.length - 1, if leftIdx hasn't reached the end of leftArray
+        //push rest of leftArray onto tmp
+    //if rightIdx < rightArray.length - 1, if rightIdx hasn't reached the end of rightArray
+        //push rest of rightArray onto tmp
+}
+
+

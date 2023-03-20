@@ -18,9 +18,31 @@
     [ ] TODO: draw out the recursive tree by hand
 */
 
-function powerOfTwo(n) {
 
+// 64 
+// 64/2/2/2/2/2/2...1,
+// 5/2/2...0.5 ... 10.25 % 1 = .25
+
+function powerOfTwo(n) {
+    // base case: if we get 1, we return true 
+    //console.log(n)
+    if(n === 1 || n === 0) {
+        return true 
+    }
+    // base case: if we get decimal, we return false
+    if (n % 1 !== 0) {
+        return false 
+    }
+    // recursive case: divide n by 2 
+    else {
+        return powerOfTwo(n/2)
+    }
 }
+
+// console.log(powerOfTwo(128)) //true
+// console.log(powerOfTwo(0)) //true 
+// console.log(powerOfTwo(63)) //false
+// console.log(powerOfTwo(6)) //false
 
 //=====================================================
 
@@ -28,6 +50,7 @@ function powerOfTwo(n) {
     PARAM: n, int
     RETURN: int, n!
     Note: n! = n * n-1 * n-2 * ... * 1
+    5! = 5 * 4 * 3 * 2 * 1
 */
 
 /*
@@ -36,7 +59,14 @@ function powerOfTwo(n) {
 */
 
 function factorial(n) {
-
+    console.log(n)
+    //base case: if n === 1, return 
+    if(n === 1) {
+        return 1
+    //recursive case: 
+    } else {
+        return factorial(n - 1) * n
+    }
 }
 
 //=====================================================
@@ -51,7 +81,13 @@ function factorial(n) {
     [ ] TODO: draw out the recursive tree by hand
 */
 
-
 function sumDigits(n) {
-
+    //base case: get to last number
+    if(n < 10) {
+        return n
+    } else {
+    //recursive case:
+        //get first / last digit
+        return (n%10) + sumDigits(Math.floor(n/10))
+    }
 }
